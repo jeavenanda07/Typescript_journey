@@ -1,0 +1,31 @@
+<--  What is typescript? -->
+1. Alternative for Javascript (superset)
+2. Allows us to use strict typing
+3. Support modern features (arrow functions, let, const)
+4. Extra features (generic, interfaces, tuples, etc..)
+
+
+<-- Basic cmd command -->
+"node -V" - Check the version of node
+"npm install -g typescript" - For installing typescript globally 
+"tsc typescript.ts" -   Compiling typescript to Javascript 
+"node typescript.js" -  Running js code 
+"tsc --init" - Use to create tsconfig.js file
+"tsc" - Compile ts in src folder to dist folder
+"tsc --watch" - Watch the changes in src to dist
+"node --watch dist/index.js" - Watch the changes in dist and run it in console
+
+
+
+<-- tsconfig.ts command -->
+- File Layout --
+"rootDir": "./src" - Location of our typescript inputs (typescript)
+"outDir": "./dist" - Location of our typescript outputs (typescript to Javascript)
+
+
+
+<-- Learning Progress -->
+-- Day 1 --
+Interfaces
+Data Typing
+Ts Configuration
